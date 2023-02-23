@@ -14,10 +14,10 @@ function saudacao() {
 <template>
   <div class="info">
     <h1>Exemplo 1 - Mostrando informações na tela</h1>
-    <p>Nome: {{ nome }} </p>
+    <p>Nome: {{ nome }}</p>
     <p>Idade: {{ idade }} anos</p>
     <hr />
-    <p>Para completar 50 anos faltam: {{ 50 - idade}} anos</p>
+    <p>Para completar 50 anos faltam: {{ 50 - idade }} anos</p>
     <p>O nome tem {{ nome.length }} caracteres</p>
     <p>O nome invertido é: {{ inverter(nome).toUpperCase() }}</p>
     <hr />
