@@ -4,7 +4,7 @@ import { ref, computed } from 'vue'
 const professor = ref({
   nome: 'Marco André Mendes',
   disciplinas: ['Desenvolvimento Web III', 'Projeto Integrador III']
-//   disciplinas: []
+  //   disciplinas: []
 })
 
 const possuiDisciplinas = computed(() => {
