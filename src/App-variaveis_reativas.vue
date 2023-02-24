@@ -9,5 +9,5 @@ function incrementar() {
 </script>
 
 <template>
-  <button @click="incrementar">{{ contador }}</button>
+    <button @click="incrementar">{{ contador }} </button>
 </template>
