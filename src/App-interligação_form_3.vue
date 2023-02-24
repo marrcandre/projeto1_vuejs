@@ -5,7 +5,7 @@ const texto = ref('Digite seu nome')
 
 <template>
   <div>
-      <input type="text" v-model="texto" />
-      <p>Texto digitado: {{ texto }}</p>
+    <input type="text" v-model="texto" />
+    <p>Texto digitado: {{ texto }}</p>
   </div>
 </template>
